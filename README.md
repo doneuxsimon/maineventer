@@ -25,7 +25,7 @@ Putting our knowledge and cohesion into practice through teamwork.
 * HTML
 * CSS
     * Flexbox
-    * Framework ?
+    
 
 
 ## Overview 
