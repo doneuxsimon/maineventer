@@ -42,6 +42,14 @@ body {
     box-shadow: 0px 5px rgb(185, 188, 190);
 }
 
+.lien {
+    color: black;
+}
+
+.lien:hover {
+    color: #9A0000;
+}
+
 .loremCarte {
     font-size: small;
     color: lightslategrey;
