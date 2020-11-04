@@ -2,6 +2,12 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+main{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+
 h2 {
     display: inline-block;
     font-size: 3.0em;
