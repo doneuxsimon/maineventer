@@ -1,10 +1,7 @@
 
-
 body {
     font-family: 'Comfortaa', cursive;
 }
-
-
 /*Header*/
 img.background {
 
@@ -61,6 +58,71 @@ nav a:hover
     color: rgb(175,1,1);
     border-bottom: 3px solid rgb(175,1,1);
 }
+  
+  
+  
+  /* PART II - JOELLE*/
+
+.firstpartbody {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.texte1 {
+    position: absolute;
+    width: 157px;
+    margin-top: 3%;
+    margin-left: 19%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border: solid;
+    background-color: #9A0000;
+    border-color: white;
+    color: white;
+    font-size: 15px;
+}
+
+.partie1 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+}
+
+.imagedebiere {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    margin-left: 25%;
+    max-width: 300px;
+}
+
+.texte2 {
+    margin-left: 40px;
+    max-width: 30%;
+    padding-top: 25px;
+}
+
+.texte2 #titre1 {
+    border-bottom: 3px solid #9A0000;
+    padding-bottom: 5%;
+    border-width: 8px;
+}
+
+.couleurdetexte {
+    color: rgb(170, 163, 163);
+    padding-top: 25%;
+}
+
+.texte3 {
+    margin-right: 20%;
+    margin-left: 25%;
+    margin-top: -4%;
+    color: rgb(170, 163, 163);
+}
+
+/* PART II - JOELLE */
 
 /* ----CEMIL---- */
 .OurTeam-Titre h1{
@@ -399,18 +461,4 @@ i
     
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
