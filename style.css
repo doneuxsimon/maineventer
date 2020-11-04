@@ -1,6 +1,6 @@
 /* ----CEMIL---- */
 .OurTeam-Titre h1{
-    font-size: 1.9em;
+    font-size: 3.0em;
     align-content: center;
     text-align: center;
 }
@@ -18,7 +18,8 @@
     width: fit-content;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 .OurTeam img{
     border-radius: 50%;
@@ -26,14 +27,14 @@
 }
 
 
-@media all and (max-width: 420px)
+@media all and (max-width: 600px)
 {
     .OurTeam{
         display: block;
         font-size: 1.0em;
     }
 }
-@media all and (min-width: 421px){
+@media all and (min-width: 601px){
     .OurTeam{
         display: flex;
         flex-wrap: wrap;
