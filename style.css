@@ -1,7 +1,8 @@
-
 body {
     font-family: 'Comfortaa', cursive;
 }
+
+/* Abdellilah */
 /*Header*/
 img.background {
 
@@ -11,37 +12,31 @@ img.background {
     left: 0px;
     top: 0px;
     z-index: -1;
-    filter:brightness(20%);
+    filter: brightness(20%);
 
-  }
-
-/*Logo*/
-.logo
-{
-    display:block;
-    width:auto;
-    margin-left:auto;
-    margin-right:auto;
-
-/* Navigation */
-
-nav ul {
-    margin-top:0;
-    list-style-type: none;
-    display: flex;
-    
-    
-    margin-left: 450px;
-    
 }
 
+/*Logo*/
+.logo {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* Navigation */
+nav ul {
+    margin-top: 0;
+    list-style-type: none;
+    display: flex;
+    margin-left: 450px;
+}
 
 nav li {
-    
+
     margin-top: 10px;
     margin-right: 2px;
-    padding:15px;
+    padding: 15px;
 }
 
 nav a {
@@ -51,23 +46,20 @@ nav a {
     text-decoration: none;
 }
 
-
-
-nav a:hover
-{
-    color: rgb(175,1,1);
-    border-bottom: 3px solid rgb(175,1,1);
+nav a:hover {
+    color: rgb(175, 1, 1);
+    border-bottom: 3px solid rgb(175, 1, 1);
 }
-  
-  
-  
-  /* PART II - JOELLE*/
+
+/* Abdellilah */
+
+/* PART II - JOELLE*/
 
 .firstpartbody {
     height: 500px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 .texte1 {
@@ -125,18 +117,21 @@ nav a:hover
 /* PART II - JOELLE */
 
 /* ----CEMIL---- */
-.OurTeam-Titre h1{
+.OurTeam-Titre h1 {
     font-size: 3.0em;
     align-content: center;
     text-align: center;
 }
-.OurTeam-Titre #bord{
+
+.OurTeam-Titre #bord {
     border-bottom: 3px solid #9B0604;
 }
-.OurTeam{
+
+.OurTeam {
     text-align: justify;
 }
-.OurTeam h2{
+
+.OurTeam h2 {
     background-color: #990100;
     font-size: 1.0em;
     color: white;
@@ -147,33 +142,36 @@ nav a:hover
     padding-top: 2px;
     padding-bottom: 2px;
 }
-.OurTeam img{
+
+.OurTeam img {
     border-radius: 50%;
     max-width: 100px;
 }
 
 
-@media all and (max-width: 600px)
-{
-    .OurTeam{
+@media all and (max-width: 600px) {
+    .OurTeam {
         display: block;
         font-size: 1.0em;
     }
 }
-@media all and (min-width: 601px){
-    .OurTeam{
+
+@media all and (min-width: 601px) {
+    .OurTeam {
         display: flex;
         flex-wrap: wrap;
         font-size: 0.9em;
         color: #A0A0A0;
     }
-    .OurTeam .OurTeam-Top{
+
+    .OurTeam .OurTeam-Top {
         flex-basis: 30%;
         display: flex;
         margin-left: 16%;
         margin-right: 2%;
         padding: 1%;
     }
+
     .OurTeam .OurTeam-Bottom {
         flex-basis: 30%;
         display: flex;
@@ -181,14 +179,16 @@ nav a:hover
         margin-right: 16%;
         padding: 1%;
     }
-    .OurTeam-text{
+
+    .OurTeam-text {
         flex-direction: column;
         padding-left: 5px;
     }
 }
-/* ----CEMIL---- */ 
-  
-  
+
+/* CEMIL */
+
+
 /*SIMON PARTIE*/
 .titreOurEvents {
     display: flex;
@@ -303,162 +303,106 @@ h4 {
 .boutonSend:hover {
     background-color: #9A0000;
     color: white;
-}  
+}
 
-
+/* Simon */
 
 /*Footer*/
-
-footer
-{
-   
-   background-image: url('./assets/swirl_pattern.png');
-   
-  
-   width:100%;
-   height:280px;
-   background-position: bottom;
-   margin-top: 800px;
-  
-
-}
-#titre_footer
-{
-text-align: center;
-padding-top: 40px;
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
+footer {
+    background-image: url('./assets/swirl_pattern.png');
+    width: 100%;
+    height: 280px;
+    background-position: bottom;
+    margin-top: 800px;
 }
 
-/*fontawsome*/
+#titre_footer {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
-
-footer ul
-{
-    
-    display:flex;
+/*font awsome*/
+footer ul {
+    display: flex;
     margin-left: 28%;
-    
     margin-top: 60px;
-    
-   
-   
-    
 }
 
-footer ul li
-{
-    list-style:none;     
+footer ul li {
+    list-style: none;
 }
 
-footer ul li a
-{
-   
-
-
-text-decoration: none;
-padding-top: 15px;
-
-
-   
+footer ul li a {
+    text-decoration: none;
+    padding-top: 15px;
 }
 
-footer ul li a :hover
-{
-   
-
-transform: translate(0,-10px);
-
-
-
-   
+footer ul li a :hover {
+    transform: translate(0, -10px);
 }
 
-
-
-
-footer ul li:nth-child(1) a .fa
-{
-    position:relative;
-    display:flex;
+footer ul li:nth-child(1) a .fa {
+    position: relative;
+    display: flex;
     justify-content: center;
-   
     width: 40px;
-    height:40px;
-    border-radius:50%;
+    height: 40px;
+    border-radius: 50%;
     text-decoration: none;
     font-size: 30px;
-    background-color:rgb(10,102,194);
-    color:white;
+    background-color: rgb(10, 102, 194);
+    color: white;
     margin-right: 40px;
-    
-   
-    
-    
 }
 
 
-footer ul li:nth-child(2) a .fa
-{
-    position:relative;
-    display:flex;
+footer ul li:nth-child(2) a .fa {
+    position: relative;
+    display: flex;
     justify-content: center;
-    
     width: 40px;
-    height:40px;
-    border-radius:50%;
+    height: 40px;
+    border-radius: 50%;
     text-decoration: none;
     font-size: 30px;
-    background-color:rgb(216,97,65);
-    color:white;
+    background-color: rgb(216, 97, 65);
+    color: white;
     margin-right: 40px;
-    
-    
 }
 
-footer ul li:nth-child(3) a .fa
-{
-    position:relative;
-    display:flex;
+footer ul li:nth-child(3) a .fa {
+    position: relative;
+    display: flex;
     justify-content: center;
-   
     width: 40px;
-    height:40px;
-    border-radius:50%;
+    height: 40px;
+    border-radius: 50%;
     text-decoration: none;
     font-size: 30px;
-    background-color:rgb(28,156,234);
-    color:white;
+    background-color: rgb(28, 156, 234);
+    color: white;
     margin-right: 40px;
 
-    
+
 }
 
-footer ul li:nth-child(4) a .fa
-{
-    position:relative;
-    display:flex;
+footer ul li:nth-child(4) a .fa {
+    position: relative;
+    display: flex;
     justify-content: center;
-   
     width: 40px;
-    height:40px;
-    border-radius:50%;
+    height: 40px;
+    border-radius: 50%;
     text-decoration: none;
     font-size: 30px;
-    background-color: rgb(64,100,172);
-    color:white;
+    background-color: rgb(64, 100, 172);
+    color: white;
     margin-right: 40px;
-    
 }
 
-
-i
-{
+i {
     padding-top: 8px;
-    padding-left:8px ;
-    padding-right:8px;
-    
-
+    padding-left: 8px;
+    padding-right: 8px;
 }
-
