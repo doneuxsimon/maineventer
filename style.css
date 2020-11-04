@@ -5,7 +5,8 @@ body {
 main{
     width: 80%;
     max-width: 1000px;
-    margin: auto;
+    /* margin: auto; */
+    min-width: 700px;
 }
 
 h2 {
@@ -39,7 +40,6 @@ img.background {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6%;
-
 }
 
 /* Navigation */
@@ -51,7 +51,6 @@ nav ul {
 }
 
 nav li {
-
     margin-top: 10px;
     margin-right: 2px;
     padding: 15px;
@@ -73,61 +72,63 @@ nav a:hover {
 
 /* PART II - JOELLE*/
 
+/* Texte encadré sur photo + photo*/
 .firstpartbody {
-    margin-top: 500px;
+    padding-top: 15%;
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
 }
 
-.texte1 {
+.titre1 {
     position: absolute;
-    width: 157px;
-    margin-top: 3%;
-    margin-left: 19%;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    border: solid;
+    border: solid white;
     background-color: #9A0000;
-    border-color: white;
     color: white;
-    font-size: 15px;
+    width: 170px;
+    margin-top: 2%;
+    margin-left:17%;
 }
 
 .partie1 {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
 }
 
 .imagedebiere {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 25%;
+    margin-left: 30%;
     max-width: 300px;
 }
 
-.texte2 {
-    margin-left: 40px;
+.texte1{
+    margin-right: 20%;
+    /* margin-left: 40px;
     max-width: 30%;
     padding-top: 25px;
-    margin-top: 10px;
+    margin-top: 10px;  */
 }
 
-.couleurdetexte {
+
+.para1{
     color: rgb(170, 163, 163);
-    padding-top: 80px;
+    /* padding-top: 10%; */
     text-align: justify;
+    margin-right: 20%;
+    margin-left: 25%;
+    color: rgb(170, 163, 163);
+    max-width: 48%;
+    text-align: justify; */
 }
 
-.texte3 {
+.para2{
+    color: rgb(170, 163, 163);
+    text-align: justify;
     margin-right: 20%;
     margin-left: 25%;
     color: rgb(170, 163, 163);
     max-width: 48%;
     text-align: justify;
 }
+
 
 /* PART II - JOELLE */
 
@@ -160,42 +161,6 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 600px) {
-    .OurTeam {
-        display: block;
-        font-size: 1.0em;
-    }
-}
-
-@media all and (min-width: 601px) {
-    .OurTeam {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 0.9em;
-        color: #A0A0A0;
-    }
-
-    .OurTeam .OurTeam-Top {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 16%;
-        margin-right: 2%;
-        padding: 1%;
-    }
-
-    .OurTeam .OurTeam-Bottom {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 2%;
-        margin-right: 16%;
-        padding: 1%;
-    }
-
-    .OurTeam-text {
-        flex-direction: column;
-        padding-left: 5px;
-    }
-}
 
 /* CEMIL */
 
