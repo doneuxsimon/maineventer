@@ -2,10 +2,23 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
+h2 {
+    display: inline-block;
+    font-size: 3.0em;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 80%;
+    background-color: #9A0000;
+    margin: 15px auto;
+}
+
 /* Abdellilah */
 /*Header*/
 img.background {
-
     width: 100%;
     height: 70%;
     position: absolute;
@@ -13,7 +26,6 @@ img.background {
     top: 0px;
     z-index: -1;
     filter: brightness(20%);
-
 }
 
 /*Logo*/
@@ -22,6 +34,8 @@ img.background {
     width: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 6%;
+
 }
 
 /* Navigation */
@@ -29,7 +43,7 @@ nav ul {
     margin-top: 0;
     list-style-type: none;
     display: flex;
-    margin-left: 450px;
+    margin-left: 70%;
 }
 
 nav li {
@@ -47,8 +61,8 @@ nav a {
 }
 
 nav a:hover {
+    text-decoration: none;
     color: rgb(175, 1, 1);
-    border-bottom: 3px solid rgb(175, 1, 1);
 }
 
 /* Abdellilah */
@@ -56,10 +70,10 @@ nav a:hover {
 /* PART II - JOELLE*/
 
 .firstpartbody {
-    height: 500px;
+    margin-top: 500px;
     display: flex;
     flex-direction: column;
-
+    margin-bottom: 100px;
 }
 
 .texte1 {
@@ -94,44 +108,37 @@ nav a:hover {
     margin-left: 40px;
     max-width: 30%;
     padding-top: 25px;
-}
-
-.texte2 #titre1 {
-    border-bottom: 3px solid #9A0000;
-    padding-bottom: 5%;
-    border-width: 8px;
+    margin-top: 10px;
 }
 
 .couleurdetexte {
     color: rgb(170, 163, 163);
-    padding-top: 25%;
+    padding-top: 80px;
+    text-align: justify;
 }
 
 .texte3 {
     margin-right: 20%;
     margin-left: 25%;
-    margin-top: -4%;
     color: rgb(170, 163, 163);
+    max-width: 48%;
+    text-align: justify;
 }
 
 /* PART II - JOELLE */
 
 /* ----CEMIL---- */
-.OurTeam-Titre h1 {
-    font-size: 3.0em;
+.OurTeam-Titre h2 {
+    margin-bottom: 2%;
     align-content: center;
-    text-align: center;
-}
-
-.OurTeam-Titre #bord {
-    border-bottom: 3px solid #9B0604;
+    margin-left: 43%;
 }
 
 .OurTeam {
     text-align: justify;
 }
 
-.OurTeam h2 {
+.OurTeam h3 {
     background-color: #990100;
     font-size: 1.0em;
     color: white;
@@ -191,18 +198,15 @@ nav a:hover {
 
 /*SIMON PARTIE*/
 .titreOurEvents {
+    margin-top: 8%;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 50px;
 }
 
 .titreSoulignéRouge {
     margin-left: 50px;
-    text-decoration: underline;
-    text-decoration-color: #9A0000;
     line-height: 32px;
-    padding-bottom: 2px;
 }
 
 .tableauCartes {
@@ -235,6 +239,7 @@ nav a:hover {
 }
 
 .lien:hover {
+    text-decoration: none;
     color: #9A0000;
 }
 
@@ -249,9 +254,7 @@ h4 {
 }
 
 .titreNeedEvents {
-    margin-left: 20%;
-    text-decoration: underline;
-    text-decoration-color: #9A0000;
+    margin-left: 30%;
 }
 
 .needEvents {
@@ -267,7 +270,7 @@ h4 {
 
 .lignesDeTexte {
     margin-top: 70px;
-    margin-left: 30%;
+    margin-left: 35%;
 }
 
 .nomPrenom {
@@ -290,7 +293,7 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 8px;
-    margin-left: 38%;
+    margin-left: 44%;
     border: #9A0000 2px solid;
     color: #9A0000;
     -moz-border-radius: 20px;
@@ -313,19 +316,18 @@ footer {
     width: 100%;
     height: 280px;
     background-position: bottom;
-    margin-top: 800px;
+    margin-top: 100px;
 }
 
 #titre_footer {
     text-align: center;
     padding-top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /*font awsome*/
 footer ul {
     display: flex;
-    margin-left: 28%;
+    margin-left: 39%;
     margin-top: 60px;
 }
 
@@ -340,9 +342,10 @@ footer ul li a {
 
 footer ul li a :hover {
     transform: translate(0, -10px);
+    text-decoration: none;
 }
 
-footer ul li:nth-child(1) a .fa {
+footer ul li:nth-child(1) a .fab {
     position: relative;
     display: flex;
     justify-content: center;
@@ -353,7 +356,7 @@ footer ul li:nth-child(1) a .fa {
     font-size: 30px;
     background-color: rgb(10, 102, 194);
     color: white;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 
@@ -366,9 +369,9 @@ footer ul li:nth-child(2) a .fa {
     border-radius: 50%;
     text-decoration: none;
     font-size: 30px;
-    background-color: rgb(216, 97, 65);
+    background-color: rgb(104, 44, 4);
     color: white;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 footer ul li:nth-child(3) a .fa {
@@ -382,9 +385,7 @@ footer ul li:nth-child(3) a .fa {
     font-size: 30px;
     background-color: rgb(28, 156, 234);
     color: white;
-    margin-right: 40px;
-
-
+    margin-right: 60px;
 }
 
 footer ul li:nth-child(4) a .fa {
@@ -398,11 +399,11 @@ footer ul li:nth-child(4) a .fa {
     font-size: 30px;
     background-color: rgb(64, 100, 172);
     color: white;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 i {
-    padding-top: 8px;
+    padding-top: 5px;
     padding-left: 8px;
     padding-right: 8px;
 }
