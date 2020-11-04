@@ -1,14 +1,10 @@
-/*Body*/
-body 
-{
-    margin: 0;
+
+body {
+    font-family: 'Comfortaa', cursive;
 }
 
 
-
-
-
-/*Background*/
+/*Header*/
 img.background {
 
    
@@ -19,16 +15,16 @@ img.background {
     top: 0px;
     z-index: -1;
     filter:brightness(20%);
-    
-    
-
 
   }
 
-
-
-
-  
+/*Logo*/
+.logo
+{
+    display:block;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
 
 /* Navigation */
 
@@ -65,17 +61,136 @@ nav a:hover
     color: rgb(175,1,1);
     border-bottom: 3px solid rgb(175,1,1);
 }
-/*Logo*/
-.logo
-{
-    display:block;
-    width:auto;
-    margin-left:auto;
-    margin-right:auto;
+
 
     
 }
 
+
+
+
+
+
+
+
+
+
+.titreOurEvents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.titreSoulignéRouge {
+    margin-left: 50px;
+    text-decoration: underline;
+    text-decoration-color: #9A0000;
+    line-height: 32px;
+    padding-bottom: 2px;
+}
+
+.tableauCartes {
+    max-width: 60%;
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+}
+
+.titreCards {
+    background-color: #9A0000;
+    color: whitesmoke;
+}
+
+.texteBleu {
+    text-align: center;
+    color: lightskyblue;
+}
+
+.carte {
+    max-width: 25%;
+    margin: 5%;
+    border: rgb(216, 214, 214) 2px solid;
+    text-align: center;
+    box-shadow: 0px 5px rgb(185, 188, 190);
+}
+
+.lien {
+    color: black;
+}
+
+.lien:hover {
+    color: #9A0000;
+}
+
+.loremCarte {
+    font-size: small;
+    color: lightslategrey;
+    padding: 20px;
+}
+
+h4 {
+    padding: 5px;
+}
+
+.titreNeedEvents {
+    margin-left: 20%;
+    text-decoration: underline;
+    text-decoration-color: #9A0000;
+}
+
+.needEvents {
+    margin-top: 8%;
+}
+
+.ligneDeTexte {
+    border: solid 2px rgb(194, 24, 24);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.lignesDeTexte {
+    margin-top: 70px;
+    margin-left: 30%;
+}
+
+.nomPrenom {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.nom {
+    margin-right: 50px;
+}
+
+.description {
+    margin-top: 30px;
+}
+
+.boutonSend {
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 8px;
+    margin-left: 38%;
+    border: #9A0000 2px solid;
+    color: #9A0000;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.boutonSend:hover {
+    background-color: #9A0000;
+    color: white;
+}  
+
+/*Footer*/
 
 footer
 {
@@ -117,11 +232,7 @@ footer ul
 
 footer ul li
 {
-    list-style:none;   
-    
-
-   
-    
+    list-style:none;     
 }
 
 footer ul li a
@@ -233,6 +344,7 @@ i
     
 
 }
+
 
 
 
