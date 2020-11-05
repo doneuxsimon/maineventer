@@ -1,14 +1,6 @@
 body {
     font-family: 'Comfortaa', cursive;
 }
-
-main{
-    /* width: 80%; */
-    /* max-width: 1160px; */
-    /* margin: auto; */
-    /* min-width: 700px; */
-}
-
 h2 {
     display: inline-block;
     font-size: 3.0em;
@@ -37,26 +29,26 @@ img.background {
 .logo {
     display: block;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40%;
     margin-top: 6%;
 }
 
 /* Navigation */
-nav{
+nav {
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    padding-right: 12%;
 }
+
 nav ul {
-    /* margin-top: 0; */
     list-style-type: none;
     display: flex;
-    /* margin-left: 70%; */
 }
 
 nav li {
-    /* margin-top: 10px; */
-    /* margin-right: 2px; */
+    margin-top: 2%;
+    margin-right: 2px;
     padding: 15px;
 }
 
@@ -105,14 +97,14 @@ nav a:hover {
    flex-basis: 45%;
    padding-top: 3%;
 }
-  
-.para1{
+
+.para1 {
     color: rgb(170, 163, 163);
     padding-top: 12%;
     text-align: justify;
 }
 
-.para2{
+.para2 {
     color: rgb(170, 163, 163);
     text-align: justify;
     display: flex;
@@ -120,20 +112,16 @@ nav a:hover {
     padding-left: 15%;
     padding-right: 15%;
 }
-    
 
 
 /* PART II - JOELLE */
 
-/* ----CEMIL---- */
-.OurTeam-Titre h2 {
-    margin-bottom: 2%;
-    align-content: center;
-    margin-left: 43%;
-}
 
-.OurTeam {
-    text-align: justify;
+/* ----CEMIL---- */
+.OurTeam-Titre {
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
 }
 
 .OurTeam h3 {
@@ -153,6 +141,31 @@ nav a:hover {
     max-width: 100px;
 }
 
+.OurTeam {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    color: #A0A0A0;
+    justify-content: center;
+    text-align: justify;
+}
+
+.OurTeam .OurTeam-Top {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
+}
+
+.OurTeam .OurTeam-Bottom {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
+}
+
+.OurTeam-text {
+    flex-direction: column;
+    padding-left: 5px;
+}
 
 
 /* CEMIL */
@@ -274,12 +287,12 @@ h4 {
 
 /*Footer*/
 footer {
+    margin: 0;
     background-image: url('./assets/swirl_pattern.png');
-    width: 100%;
-    height: 280px;
+    height: 230px;
     background-position: bottom;
-    margin-top: 100px;
 }
+
 
 #titre_footer {
     text-align: center;
@@ -289,7 +302,9 @@ footer {
 /*font awsome*/
 footer ul {
     display: flex;
-    margin-left: 39%;
+    margin-left: 37%;
+    margin-right: 55%;
+    /*margin-right:auto;*/
     margin-top: 60px;
 }
 
@@ -307,7 +322,7 @@ footer ul li a :hover {
     text-decoration: none;
 }
 
-footer ul li:nth-child(1) a .fab {
+footer ul li .fa{
     position: relative;
     display: flex;
     justify-content: center;
@@ -315,6 +330,18 @@ footer ul li:nth-child(1) a .fab {
     height: 40px;
     border-radius: 50%;
     text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 60px;
+}
+
+footer ul li:nth-child(1) a .fab {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
     font-size: 30px;
     background-color: rgb(10, 102, 194);
     color: white;
@@ -323,45 +350,15 @@ footer ul li:nth-child(1) a .fab {
 
 
 footer ul li:nth-child(2) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(104, 44, 4);
-    color: white;
-    margin-right: 60px;
 }
 
 footer ul li:nth-child(3) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(28, 156, 234);
-    color: white;
-    margin-right: 60px;
 }
 
 footer ul li:nth-child(4) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(64, 100, 172);
-    color: white;
-    margin-right: 60px;
 }
 
 i {
