@@ -2,11 +2,7 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-main{
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-}
+
 
 h2 {
     display: inline-block;
@@ -39,21 +35,23 @@ img.background {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6%;
-
 }
 
 /* Navigation */
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
 nav ul {
-    margin-top: 0;
+    /* margin-top: 0; */
     list-style-type: none;
     display: flex;
-    margin-left: 70%;
+    /* margin-left: 70%; */
 }
 
 nav li {
-
-    margin-top: 10px;
-    margin-right: 2px;
+    /* margin-top: 10px; */
+    /* margin-right: 2px; */
     padding: 15px;
 }
 
@@ -73,61 +71,50 @@ nav a:hover {
 
 /* PART II - JOELLE*/
 
+/* Texte encadré sur photo + photo*/
 .firstpartbody {
-    margin-top: 500px;
+    padding-top: 15%;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
-.texte1 {
+.titre1 {
     position: absolute;
-    width: 157px;
-    margin-top: 3%;
-    margin-left: 19%;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
-    border: solid;
+    border: solid white;
     background-color: #9A0000;
-    border-color: white;
     color: white;
-    font-size: 15px;
+    width: 170px;
+    margin-top: 2%;
+    margin-left:60px;
 }
 
 .partie1 {
     display: flex;
-    flex-direction: row;
-    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
-.imagedebiere {
-    margin-top: 30px;
-    margin-bottom: 60px;
-    margin-left: 25%;
-    max-width: 300px;
+.texte1{
+   padding-left: 4%;
+   flex-basis: 45%;
+   padding-top: 5%;
 }
-
-.texte2 {
-    margin-left: 40px;
-    max-width: 30%;
-    padding-top: 25px;
-    margin-top: 10px;
-}
-
-.couleurdetexte {
+  
+.para1{
     color: rgb(170, 163, 163);
-    padding-top: 80px;
+    padding-top: 12%;
     text-align: justify;
 }
 
-.texte3 {
-    margin-right: 20%;
-    margin-left: 25%;
+.para2{
     color: rgb(170, 163, 163);
-    max-width: 48%;
     text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding-left: 12%;
+    padding-right: 12%;
 }
+    
+
 
 /* PART II - JOELLE */
 
@@ -160,42 +147,6 @@ nav a:hover {
 }
 
 
-@media all and (max-width: 600px) {
-    .OurTeam {
-        display: block;
-        font-size: 1.0em;
-    }
-}
-
-@media all and (min-width: 601px) {
-    .OurTeam {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 0.9em;
-        color: #A0A0A0;
-    }
-
-    .OurTeam .OurTeam-Top {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 16%;
-        margin-right: 2%;
-        padding: 1%;
-    }
-
-    .OurTeam .OurTeam-Bottom {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 2%;
-        margin-right: 16%;
-        padding: 1%;
-    }
-
-    .OurTeam-text {
-        flex-direction: column;
-        padding-left: 5px;
-    }
-}
 
 /* CEMIL */
 
