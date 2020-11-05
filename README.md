@@ -30,7 +30,7 @@ Putting our knowledge and cohesion into practice through teamwork.
 
 
 ## Overview 
-UNDER CONSTRUCTION
+[![little overview](assets/Overview.png)](https://doneuxsimon.github.io/maineventer/) 
 
 ### Original instruction
 
