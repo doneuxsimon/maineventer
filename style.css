@@ -76,7 +76,7 @@ nav a:hover {
 .firstpartbody {
     padding-top: 15%;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .titre1 {
@@ -86,48 +86,36 @@ nav a:hover {
     color: white;
     width: 170px;
     margin-top: 2%;
-    margin-left:17%;
+    margin-left:5%;
 }
 
 .partie1 {
     display: flex;
-    flex-direction: row;
-}
-
-.imagedebiere {
-    margin-left: 30%;
-    max-width: 300px;
+    justify-content: center;
 }
 
 .texte1{
-    margin-right: 20%;
-    /* margin-left: 40px;
-    max-width: 30%;
-    padding-top: 25px;
-    margin-top: 10px;  */
+   padding-left: 4%;
+   flex-basis: 45%;
+   padding-top: 5%;
 }
-
-
+  
 .para1{
     color: rgb(170, 163, 163);
-    /* padding-top: 10%; */
+    padding-top: 12%;
     text-align: justify;
-    margin-right: 20%;
-    margin-left: 25%;
-    color: rgb(170, 163, 163);
-    max-width: 48%;
-    text-align: justify; */
 }
 
 .para2{
     color: rgb(170, 163, 163);
     text-align: justify;
-    margin-right: 20%;
-    margin-left: 25%;
-    color: rgb(170, 163, 163);
-    max-width: 48%;
-    text-align: justify;
+    display: flex;
+    justify-content: center;
+    padding-left: 9%;
+    padding-right: 9%;
+    
 }
+    
 
 
 /* PART II - JOELLE */
