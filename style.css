@@ -3,10 +3,10 @@ body {
 }
 
 main{
-    width: 80%;
-    max-width: 1000px;
+    /* width: 80%; */
+    max-width: 1160px;
     /* margin: auto; */
-    min-width: 700px;
+    /* min-width: 700px; */
 }
 
 h2 {
@@ -43,16 +43,20 @@ img.background {
 }
 
 /* Navigation */
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
 nav ul {
-    margin-top: 0;
+    /* margin-top: 0; */
     list-style-type: none;
     display: flex;
-    margin-left: 70%;
+    /* margin-left: 70%; */
 }
 
 nav li {
-    margin-top: 10px;
-    margin-right: 2px;
+    /* margin-top: 10px; */
+    /* margin-right: 2px; */
     padding: 15px;
 }
 
@@ -86,7 +90,7 @@ nav a:hover {
     color: white;
     width: 170px;
     margin-top: 2%;
-    margin-left:1%;
+    margin-left:60px;
 }
 
 .partie1 {
@@ -111,9 +115,8 @@ nav a:hover {
     text-align: justify;
     display: flex;
     justify-content: center;
-    padding-left: 9%;
-    padding-right: 9%;
-    
+    padding-left: 12%;
+    padding-right: 12%;
 }
     
 
