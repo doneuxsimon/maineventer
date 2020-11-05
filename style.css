@@ -71,7 +71,6 @@ nav a:hover {
 
 /* Texte encadré sur photo + photo*/
 .firstpartbody {
-    padding-top: 15%;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 10%;
@@ -82,6 +81,10 @@ nav a:hover {
         margin-left: 15%;
     }
 
+    .firstpartbody {
+        padding-top: 20%;
+    }
+
     .para2 {
         padding-left: 18%;
         padding-right: 18%;
@@ -90,7 +93,11 @@ nav a:hover {
 
 @media only screen and (max-width: 1399px) {
     .titre1 {
-        margin-left: 10%;  
+        margin-left: 10%;
+    }
+
+    .firstpartbody {
+        padding-top: 15%;
     }
 
     .para2 {
