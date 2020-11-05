@@ -321,6 +321,19 @@ footer ul li a :hover {
     text-decoration: none;
 }
 
+footer ul li .fa{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    margin-right: 60px;
+}
+
 footer ul li:nth-child(1) a .fab {
     position: relative;
     display: flex;
@@ -336,45 +349,15 @@ footer ul li:nth-child(1) a .fab {
 
 
 footer ul li:nth-child(2) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(104, 44, 4);
-    color: white;
-    margin-right: 60px;
 }
 
 footer ul li:nth-child(3) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(28, 156, 234);
-    color: white;
-    margin-right: 60px;
 }
 
 footer ul li:nth-child(4) a .fa {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    text-decoration: none;
-    font-size: 30px;
     background-color: rgb(64, 100, 172);
-    color: white;
-    margin-right: 60px;
 }
 
 i {
