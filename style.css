@@ -89,6 +89,10 @@ nav a:hover {
         padding-left: 18%;
         padding-right: 18%;
     }
+
+    .loremCarte {
+        font-size: small;
+    }
 }
 
 @media only screen and (max-width: 1399px) {
@@ -103,6 +107,10 @@ nav a:hover {
     .para2 {
         padding-left: 13%;
         padding-right: 13%;
+    }
+
+    .loremCarte {
+        font-size: 8px;
     }
 }
 
@@ -148,13 +156,13 @@ nav a:hover {
 
 
 /* ----CEMIL---- */
-.OurTeam-Titre {
+.ourTeam-Titre {
     display: flex;
     margin-bottom: 2%;
     justify-content: center;
 }
 
-.OurTeam h3 {
+.ourTeam h3 {
     background-color: #990100;
     font-size: 1.0em;
     color: white;
@@ -166,12 +174,12 @@ nav a:hover {
     padding-bottom: 2px;
 }
 
-.OurTeam img {
+.ourTeam img {
     border-radius: 50%;
     max-width: 100px;
 }
 
-.OurTeam {
+.ourTeam {
     display: flex;
     flex-wrap: wrap;
     font-size: 0.9em;
@@ -180,19 +188,19 @@ nav a:hover {
     text-align: justify;
 }
 
-.OurTeam .OurTeam-Top {
+.ourTeam .ourTeam-Top {
     flex-basis: 35%;
     display: flex;
     padding: 1%;
 }
 
-.OurTeam .OurTeam-Bottom {
+.ourTeam .ourTeam-Bottom {
     flex-basis: 35%;
     display: flex;
     padding: 1%;
 }
 
-.OurTeam-text {
+.ourTeam-text {
     flex-direction: column;
     padding-left: 5px;
 }
@@ -249,7 +257,6 @@ nav a:hover {
 }
 
 .loremCarte {
-    font-size: small;
     color: lightslategrey;
     padding: 20px;
 }
@@ -330,11 +337,12 @@ footer {
 }
 
 /*font awsome*/
+.icon{
+    display: flex;
+    justify-content: center;
+}
 footer ul {
     display: flex;
-    margin-left: 37%;
-    margin-right: 55%;
-    /*margin-right:auto;*/
     margin-top: 60px;
 }
 
