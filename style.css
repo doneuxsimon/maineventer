@@ -89,6 +89,10 @@ nav a:hover {
         padding-left: 18%;
         padding-right: 18%;
     }
+
+    .loremCarte {
+        font-size: small;
+    }
 }
 
 @media only screen and (max-width: 1399px) {
@@ -103,6 +107,10 @@ nav a:hover {
     .para2 {
         padding-left: 13%;
         padding-right: 13%;
+    }
+
+    .loremCarte {
+        font-size: 8px;
     }
 }
 
@@ -249,7 +257,6 @@ nav a:hover {
 }
 
 .loremCarte {
-    font-size: small;
     color: lightslategrey;
     padding: 20px;
 }
