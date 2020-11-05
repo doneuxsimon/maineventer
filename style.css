@@ -2,12 +2,6 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-main{
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-}
-
 h2 {
     display: inline-block;
     font-size: 3.0em;
@@ -132,14 +126,10 @@ nav a:hover {
 /* PART II - JOELLE */
 
 /* ----CEMIL---- */
-.OurTeam-Titre h2 {
+.OurTeam-Titre {
+    display: flex;
     margin-bottom: 2%;
-    align-content: center;
-    margin-left: 43%;
-}
-
-.OurTeam {
-    text-align: justify;
+    justify-content: center;
 }
 
 .OurTeam h3 {
@@ -159,43 +149,32 @@ nav a:hover {
     max-width: 100px;
 }
 
-
-@media all and (max-width: 600px) {
-    .OurTeam {
-        display: block;
-        font-size: 1.0em;
-    }
+.OurTeam {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    color: #A0A0A0;
+    justify-content: center;
+    text-align: justify;
 }
 
-@media all and (min-width: 601px) {
-    .OurTeam {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: 0.9em;
-        color: #A0A0A0;
-    }
-
-    .OurTeam .OurTeam-Top {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 16%;
-        margin-right: 2%;
-        padding: 1%;
-    }
-
-    .OurTeam .OurTeam-Bottom {
-        flex-basis: 30%;
-        display: flex;
-        margin-left: 2%;
-        margin-right: 16%;
-        padding: 1%;
-    }
-
-    .OurTeam-text {
-        flex-direction: column;
-        padding-left: 5px;
-    }
+.OurTeam .OurTeam-Top {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
 }
+
+.OurTeam .OurTeam-Bottom {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
+}
+
+.OurTeam-text {
+    flex-direction: column;
+    padding-left: 5px;
+}
+
 
 /* CEMIL */
 
