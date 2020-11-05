@@ -1,12 +1,19 @@
-body {
+body
+{
     font-family: 'Comfortaa', cursive;
 }
-
+/*
 main{
-    width: 80%;
-    max-width: 1000px;
-    margin: auto;
-}
+    
+    max-width: 1160px;
+  
+}*/
+/*
+header
+{
+  margin :0;  
+  width:1%;
+}*/
 
 h2 {
     display: inline-block;
@@ -30,31 +37,46 @@ img.background {
     position: absolute;
     z-index: -1;
     filter: brightness(20%);
+    
+    
 }
 
 /*Logo*/
 .logo {
     display: block;
     width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40%;
+  
     margin-top: 6%;
 
 }
 
 /* Navigation */
+nav
+{
+    width: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    padding-right: 12%;
+ 
+   
+}
 nav ul {
-    margin-top: 0;
+    
+   
     list-style-type: none;
     display: flex;
-    margin-left: 50%;
+ 
+    
+  
 }
 
 nav li {
+    margin-top: 2%;
+    margin-right: 2px;
+    padding: 15px;
 
-    margin-top: 10%;
-    margin-right: 2%;
-    padding: 1.5%;
+    
 }
 
 nav a {
@@ -316,22 +338,31 @@ h4 {
 
 /*Footer*/
 footer {
-    background-image: url('./assets/swirl_pattern.png');
-    width: 100%;
-    height: 280px;
+    margin:0;
+    background-image: url('./assets/swirl_pattern.png');    
+    height: 230px;    
     background-position: bottom;
-    margin-top: 100px;
+   
+  
 }
+
 
 #titre_footer {
     text-align: center;
     padding-top: 40px;
+   
+  
 }
 
 /*font awsome*/
 footer ul {
     display: flex;
-    margin-left: 39%;
+    margin-left : 37%;
+    margin-right: 55%;
+
+    /*margin-right:auto;*/
+   
+    
     margin-top: 60px;
 }
 
@@ -356,7 +387,7 @@ footer ul li:nth-child(1) a .fab {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    text-decoration: none;
+   
     font-size: 30px;
     background-color: rgb(10, 102, 194);
     color: white;
