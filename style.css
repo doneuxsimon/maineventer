@@ -74,6 +74,7 @@ nav a:hover {
     padding-top: 15%;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 10%;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -89,12 +90,12 @@ nav a:hover {
 
 @media only screen and (max-width: 1399px) {
     .titre1 {
-        margin-left: 10%;
+        margin-left: 10%;  
     }
 
     .para2 {
-        padding-left: 14%;
-        padding-right: 15%;
+        padding-left: 13%;
+        padding-right: 13%;
     }
 }
 
@@ -195,7 +196,7 @@ nav a:hover {
 
 /*SIMON PARTIE*/
 .titreOurEvents {
-    margin-top: 8%;
+    margin-top: 12%;
     display: flex;
     flex-direction: row;
     justify-content: center;
