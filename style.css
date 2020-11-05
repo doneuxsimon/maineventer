@@ -53,8 +53,6 @@ nav ul {
    
     list-style-type: none;
     display: flex;
- 
-    
   
 }
 
@@ -125,38 +123,34 @@ nav a:hover {
 }
     
 
-
 /* PART II - JOELLE */
 
-/* ----CEMIL---- */
-.OurTeam-Titre h2 {
-    margin-bottom: 2%;
-    align-content: center;
-    margin-left: 43%;
-}
 
 .OurTeam {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    color: #A0A0A0;
+    justify-content: center;
     text-align: justify;
 }
 
-.OurTeam h3 {
-    background-color: #990100;
-    font-size: 1.0em;
-    color: white;
-    text-align: center;
-    width: fit-content;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+.OurTeam .OurTeam-Top {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
 }
 
-.OurTeam img {
-    border-radius: 50%;
-    max-width: 100px;
+.OurTeam .OurTeam-Bottom {
+    flex-basis: 35%;
+    display: flex;
+    padding: 1%;
 }
 
-
+.OurTeam-text {
+    flex-direction: column;
+    padding-left: 5px;
+}
 
 /* CEMIL */
 
@@ -281,8 +275,7 @@ footer {
     background-image: url('./assets/swirl_pattern.png');    
     height: 230px;    
     background-position: bottom;
-   
-  
+
 }
 
 
