@@ -4,8 +4,8 @@ body {
 
 main {
     width: 80%;
-    max-width: 1000px;
-    margin: auto;
+    max-width: 1500px;
+    min-width: 700px;
 }
 
 h2 {
@@ -96,9 +96,9 @@ nav a:hover {
 
 .texte1 {
     position: absolute;
-    width: 157px;
+    width: 165px;
     margin-top: 3%;
-    margin-left: 19%;
+    margin-left: 15%;
     padding-top: 5px;
     padding-left: 5px;
     padding-bottom: 5px;
@@ -272,7 +272,7 @@ h4 {
 }
 
 .titreNeedEvents {
-    margin-left: 30%;
+    margin-left: 20%;
 }
 
 .needEvents {
@@ -288,7 +288,7 @@ h4 {
 
 .lignesDeTexte {
     margin-top: 70px;
-    margin-left: 35%;
+    margin-left: 30%;
 }
 
 .nomPrenom {
@@ -311,7 +311,7 @@ h4 {
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 8px;
-    margin-left: 44%;
+    margin-left: 40%;
     border: #9A0000 2px solid;
     color: #9A0000;
     -moz-border-radius: 20px;
