@@ -80,11 +80,21 @@ nav a:hover {
     .titre1 {
         margin-left: 15%;
     }
+
+    .para2 {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
 }
 
 @media only screen and (max-width: 1399px) {
     .titre1 {
         margin-left: 10%;
+    }
+
+    .para2 {
+        padding-left: 14%;
+        padding-right: 15%;
     }
 }
 
@@ -121,8 +131,8 @@ nav a:hover {
     text-align: justify;
     display: flex;
     justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
+
+
 }
 
 
