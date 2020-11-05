@@ -1,6 +1,7 @@
 body {
     font-family: 'Comfortaa', cursive;
 }
+
 h2 {
     display: inline-block;
     font-size: 3.0em;
@@ -75,6 +76,18 @@ nav a:hover {
     flex-wrap: wrap;
 }
 
+@media only screen and (min-width: 1400px) {
+    .titre1 {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .titre1 {
+        margin-left: 10%;
+    }
+}
+
 .titre1 {
     position: absolute;
     border: solid white;
@@ -82,7 +95,6 @@ nav a:hover {
     color: white;
     width: 170px;
     margin-top: 2%;
-    margin-left: 10%;
     padding-left: 5px;
     font-size: 15px;
 }
@@ -92,10 +104,10 @@ nav a:hover {
     justify-content: center;
 }
 
-.texte1{
-   padding-left: 3%;
-   flex-basis: 45%;
-   padding-top: 3%;
+.texte1 {
+    padding-left: 3%;
+    flex-basis: 45%;
+    padding-top: 3%;
 }
 
 .para1 {
@@ -322,7 +334,7 @@ footer ul li a :hover {
     text-decoration: none;
 }
 
-footer ul li .fa{
+footer ul li .fa {
     position: relative;
     display: flex;
     justify-content: center;
