@@ -1,5 +1,4 @@
-body
-{
+body {
     font-family: 'Comfortaa', cursive;
 }
 
@@ -25,8 +24,6 @@ img.background {
     position: absolute;
     z-index: -1;
     filter: brightness(20%);
-    
-    
 }
 
 /*Logo*/
@@ -34,33 +31,26 @@ img.background {
     display: block;
     width: auto;
     margin-left: 40%;
-  
     margin-top: 6%;
 }
 
 /* Navigation */
-nav
-{
+nav {
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: row-reverse;
     padding-right: 12%;
- 
-   
 }
+
 nav ul {
-    
-   
     list-style-type: none;
     display: flex;
-  
 }
 
 nav li {
     margin-top: 2%;
     margin-right: 2px;
     padding: 15px;
-    
 }
 
 nav a {
@@ -93,7 +83,7 @@ nav a:hover {
     color: white;
     width: 170px;
     margin-top: 2%;
-    margin-left:60px;
+    margin-left: 60px;
 }
 
 .partie1 {
@@ -101,19 +91,19 @@ nav a:hover {
     justify-content: center;
 }
 
-.texte1{
-   padding-left: 4%;
-   flex-basis: 45%;
-   padding-top: 5%;
+.texte1 {
+    padding-left: 4%;
+    flex-basis: 45%;
+    padding-top: 5%;
 }
-  
-.para1{
+
+.para1 {
     color: rgb(170, 163, 163);
     padding-top: 12%;
     text-align: justify;
 }
 
-.para2{
+.para2 {
     color: rgb(170, 163, 163);
     text-align: justify;
     display: flex;
@@ -121,7 +111,7 @@ nav a:hover {
     padding-left: 12%;
     padding-right: 12%;
 }
-    
+
 
 /* PART II - JOELLE */
 
@@ -296,30 +286,24 @@ h4 {
 
 /*Footer*/
 footer {
-    margin:0;
-    background-image: url('./assets/swirl_pattern.png');    
-    height: 230px;    
+    margin: 0;
+    background-image: url('./assets/swirl_pattern.png');
+    height: 230px;
     background-position: bottom;
-
 }
 
 
 #titre_footer {
     text-align: center;
     padding-top: 40px;
-   
-  
 }
 
 /*font awsome*/
 footer ul {
     display: flex;
-    margin-left : 37%;
+    margin-left: 37%;
     margin-right: 55%;
-
     /*margin-right:auto;*/
-   
-    
     margin-top: 60px;
 }
 
@@ -344,7 +328,6 @@ footer ul li:nth-child(1) a .fab {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-   
     font-size: 30px;
     background-color: rgb(10, 102, 194);
     color: white;
