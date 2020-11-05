@@ -93,6 +93,10 @@ nav a:hover {
     .loremCarte {
         font-size: small;
     }
+
+    .carte {
+        max-width: 25%;
+    }
 }
 
 @media only screen and (max-width: 1399px) {
@@ -110,7 +114,11 @@ nav a:hover {
     }
 
     .loremCarte {
-        font-size: 8px;
+        font-size: 10px;
+    }
+
+    .carte {
+        max-width: 35%;
     }
 }
 
@@ -337,10 +345,11 @@ footer {
 }
 
 /*font awsome*/
-.icon{
+.icon {
     display: flex;
     justify-content: center;
 }
+
 footer ul {
     display: flex;
     margin-top: 60px;
