@@ -1,11 +1,12 @@
 # Main Eventer
 * Team project with
+
+    * [Joelle Everaert](https://github.com/Joelle-Everaert)
     *   [Simon Doneux](https://github.com/doneuxsimon)
-    *   [Joelle Everaert](https://github.com/Joelle-Everaert)
     *   [Cemil Ylmaz](https://github.com/Cemil1000)
     *   [Abdelilah Zaidi](https://github.com/abdelilahzaidi)
 
-* DATE
+* 05.11.2020
 
 
 ## What is this ?
