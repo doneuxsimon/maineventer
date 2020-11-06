@@ -13,6 +13,8 @@
 It is a group work as part of our training at **[BeCode](https://becode.org)**. <br>
 We worked by branch and then gathered the common work.<br>
 We divided the work into separate parts.
+We used the Trello site to divide the tasks and see the progress of each one. <br>
+[Trello](https://trello.com/b/JOT3MdnR/main-eventer)
 
 
 ## Context  
